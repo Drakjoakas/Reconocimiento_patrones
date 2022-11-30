@@ -1,0 +1,91 @@
+|--- Mg <= 2.56
+|   |--- Ba <= 0.20
+|   |   |--- Na <= 13.78
+|   |   |   |--- Al <= 1.49
+|   |   |   |   |--- Si <= 74.81
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |--- Si >  74.81
+|   |   |   |   |   |--- class: headlamps
+|   |   |   |--- Al >  1.49
+|   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |--- class: containers
+|   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |--- Na >  13.78
+|   |   |   |--- Si <= 72.25
+|   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |--- Si >  72.25
+|   |   |   |   |--- class: tableware
+|   |--- Ba >  0.20
+|   |   |--- class: headlamps
+|--- Mg >  2.56
+|   |--- Al <= 1.39
+|   |   |--- Si <= 72.71
+|   |   |   |--- RI <= 1.52
+|   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |--- class: 'vehic wind float'
+|   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |--- RI >  1.52
+|   |   |   |   |--- Mg <= 3.34
+|   |   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |   |--- Si <= 72.37
+|   |   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |   |   |--- Si >  72.37
+|   |   |   |   |   |   |   |--- class: headlamps
+|   |   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |--- Mg >  3.34
+|   |   |   |   |   |--- Fe <= 0.20
+|   |   |   |   |   |   |--- Na <= 14.01
+|   |   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |   |   |--- Na >  14.01
+|   |   |   |   |   |   |   |--- Si <= 71.43
+|   |   |   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |   |   |   |--- Si >  71.43
+|   |   |   |   |   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |   |   |   |   |--- class: 'vehic wind float'
+|   |   |   |   |   |--- Fe >  0.20
+|   |   |   |   |   |   |--- class: 'vehic wind float'
+|   |   |--- Si >  72.71
+|   |   |   |--- RI <= 1.52
+|   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |--- Ca <= 8.59
+|   |   |   |   |   |   |--- K <= 0.46
+|   |   |   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |   |   |--- K >  0.46
+|   |   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |   |--- Ca >  8.59
+|   |   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |--- RI >  1.52
+|   |   |   |   |--- Mg <= 3.56
+|   |   |   |   |   |--- RI <= 1.52
+|   |   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |   |--- RI >  1.52
+|   |   |   |   |   |   |--- class: 'build wind float'
+|   |   |   |   |--- Mg >  3.56
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |--- Al >  1.39
+|   |   |--- Mg <= 3.46
+|   |   |   |--- K <= 0.61
+|   |   |   |   |--- class: 'vehic wind float'
+|   |   |   |--- K >  0.61
+|   |   |   |   |--- Ba <= 0.60
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |--- Ba >  0.60
+|   |   |   |   |   |--- class: headlamps
+|   |   |--- Mg >  3.46
+|   |   |   |--- Ca <= 7.81
+|   |   |   |   |--- class: 'build wind float'
+|   |   |   |--- Ca >  7.81
+|   |   |   |   |--- Fe <= 0.25
+|   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |--- Fe >  0.25
+|   |   |   |   |   |--- Ca <= 8.05
+|   |   |   |   |   |   |--- class: 'build wind non-float'
+|   |   |   |   |   |--- Ca >  8.05
+|   |   |   |   |   |   |--- class: 'build wind float'

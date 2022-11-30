@@ -1,0 +1,229 @@
+|--- plas <= 143.50
+|   |--- mass <= 26.90
+|   |   |--- age <= 53.50
+|   |   |   |--- class: tested_negative
+|   |   |--- age >  53.50
+|   |   |   |--- mass <= 24.00
+|   |   |   |   |--- pedi <= 0.43
+|   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |--- pedi >  0.43
+|   |   |   |   |   |--- class: tested_negative
+|   |   |   |--- mass >  24.00
+|   |   |   |   |--- class: tested_negative
+|   |--- mass >  26.90
+|   |   |--- age <= 30.50
+|   |   |   |--- plas <= 118.50
+|   |   |   |   |--- mass <= 31.40
+|   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |--- mass >  31.40
+|   |   |   |   |   |--- pedi <= 0.48
+|   |   |   |   |   |   |--- pres <= 73.00
+|   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- pres >  73.00
+|   |   |   |   |   |   |   |--- age <= 25.50
+|   |   |   |   |   |   |   |   |--- plas <= 91.00
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |--- plas >  91.00
+|   |   |   |   |   |   |   |   |   |--- skin <= 27.50
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |--- skin >  27.50
+|   |   |   |   |   |   |   |   |   |   |--- plas <= 104.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |   |--- plas >  104.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- age >  25.50
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |--- pedi >  0.48
+|   |   |   |   |   |   |--- skin <= 29.00
+|   |   |   |   |   |   |   |--- insu <= 86.50
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |--- insu >  86.50
+|   |   |   |   |   |   |   |   |--- mass <= 35.35
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- mass >  35.35
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- skin >  29.00
+|   |   |   |   |   |   |   |--- plas <= 104.50
+|   |   |   |   |   |   |   |   |--- plas <= 95.00
+|   |   |   |   |   |   |   |   |   |--- plas <= 87.50
+|   |   |   |   |   |   |   |   |   |   |--- pedi <= 1.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |   |   |--- pedi >  1.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |--- plas >  87.50
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- plas >  95.00
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |--- plas >  104.50
+|   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |--- plas >  118.50
+|   |   |   |   |--- pres <= 22.00
+|   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |--- pres >  22.00
+|   |   |   |   |   |--- preg <= 5.50
+|   |   |   |   |   |   |--- mass <= 30.30
+|   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- mass >  30.30
+|   |   |   |   |   |   |   |--- insu <= 227.50
+|   |   |   |   |   |   |   |   |--- plas <= 138.50
+|   |   |   |   |   |   |   |   |   |--- mass <= 45.45
+|   |   |   |   |   |   |   |   |   |   |--- pres <= 69.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- pres >  69.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- mass >  45.45
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- plas >  138.50
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |--- insu >  227.50
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |--- preg >  5.50
+|   |   |   |   |   |   |--- class: tested_positive
+|   |   |--- age >  30.50
+|   |   |   |--- plas <= 96.50
+|   |   |   |   |--- mass <= 34.65
+|   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |--- mass >  34.65
+|   |   |   |   |   |--- mass <= 35.15
+|   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |--- mass >  35.15
+|   |   |   |   |   |   |--- plas <= 34.00
+|   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |--- plas >  34.00
+|   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |--- plas >  96.50
+|   |   |   |   |--- pedi <= 0.53
+|   |   |   |   |   |--- age <= 53.50
+|   |   |   |   |   |   |--- pedi <= 0.13
+|   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- pedi >  0.13
+|   |   |   |   |   |   |   |--- insu <= 107.50
+|   |   |   |   |   |   |   |   |--- pres <= 83.00
+|   |   |   |   |   |   |   |   |   |--- skin <= 37.00
+|   |   |   |   |   |   |   |   |   |   |--- plas <= 121.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- plas >  121.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- skin >  37.00
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |--- pres >  83.00
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |--- insu >  107.50
+|   |   |   |   |   |   |   |   |--- pedi <= 0.26
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- pedi >  0.26
+|   |   |   |   |   |   |   |   |   |--- mass <= 37.20
+|   |   |   |   |   |   |   |   |   |   |--- preg <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |   |--- preg >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |   |--- mass >  37.20
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |--- age >  53.50
+|   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |--- pedi >  0.53
+|   |   |   |   |   |--- preg <= 7.50
+|   |   |   |   |   |   |--- mass <= 30.20
+|   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |--- mass >  30.20
+|   |   |   |   |   |   |   |--- skin <= 28.00
+|   |   |   |   |   |   |   |   |--- mass <= 32.70
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- mass >  32.70
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |--- skin >  28.00
+|   |   |   |   |   |   |   |   |--- insu <= 114.50
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- insu >  114.50
+|   |   |   |   |   |   |   |   |   |--- plas <= 128.50
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |   |--- plas >  128.50
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |--- preg >  7.50
+|   |   |   |   |   |   |--- class: tested_positive
+|--- plas >  143.50
+|   |--- plas <= 159.50
+|   |   |--- mass <= 41.65
+|   |   |   |--- age <= 24.50
+|   |   |   |   |--- class: tested_negative
+|   |   |   |--- age >  24.50
+|   |   |   |   |--- mass <= 39.95
+|   |   |   |   |   |--- pedi <= 0.74
+|   |   |   |   |   |   |--- age <= 27.50
+|   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |--- age >  27.50
+|   |   |   |   |   |   |   |--- plas <= 149.50
+|   |   |   |   |   |   |   |   |--- skin <= 28.50
+|   |   |   |   |   |   |   |   |   |--- mass <= 36.70
+|   |   |   |   |   |   |   |   |   |   |--- pedi <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- pedi >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- mass >  36.70
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- skin >  28.50
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |--- plas >  149.50
+|   |   |   |   |   |   |   |   |--- skin <= 32.50
+|   |   |   |   |   |   |   |   |   |--- mass <= 32.45
+|   |   |   |   |   |   |   |   |   |   |--- pres <= 82.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |   |   |--- pres >  82.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |--- mass >  32.45
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- skin >  32.50
+|   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |--- pedi >  0.74
+|   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |--- mass >  39.95
+|   |   |   |   |   |--- class: tested_negative
+|   |   |--- mass >  41.65
+|   |   |   |--- class: tested_positive
+|   |--- plas >  159.50
+|   |   |--- age <= 59.50
+|   |   |   |--- insu <= 629.50
+|   |   |   |   |--- mass <= 23.10
+|   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |--- mass >  23.10
+|   |   |   |   |   |--- skin <= 26.50
+|   |   |   |   |   |   |--- pres <= 71.00
+|   |   |   |   |   |   |   |--- skin <= 24.00
+|   |   |   |   |   |   |   |   |--- plas <= 176.00
+|   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |--- plas >  176.00
+|   |   |   |   |   |   |   |   |   |--- insu <= 187.50
+|   |   |   |   |   |   |   |   |   |   |--- plas <= 179.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |   |   |   |--- plas >  179.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |   |   |--- insu >  187.50
+|   |   |   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |   |--- skin >  24.00
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- pres >  71.00
+|   |   |   |   |   |   |   |--- pedi <= 1.34
+|   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |--- pedi >  1.34
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |--- skin >  26.50
+|   |   |   |   |   |   |--- plas <= 165.50
+|   |   |   |   |   |   |   |--- plas <= 163.50
+|   |   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |   |   |   |--- plas >  163.50
+|   |   |   |   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |   |   |--- plas >  165.50
+|   |   |   |   |   |   |   |--- class: tested_positive
+|   |   |   |--- insu >  629.50
+|   |   |   |   |--- pres <= 65.00
+|   |   |   |   |   |--- class: tested_positive
+|   |   |   |   |--- pres >  65.00
+|   |   |   |   |   |--- class: tested_negative
+|   |   |--- age >  59.50
+|   |   |   |--- plas <= 180.00
+|   |   |   |   |--- class: tested_negative
+|   |   |   |--- plas >  180.00
+|   |   |   |   |--- mass <= 28.10
+|   |   |   |   |   |--- class: tested_negative
+|   |   |   |   |--- mass >  28.10
+|   |   |   |   |   |--- class: tested_positive

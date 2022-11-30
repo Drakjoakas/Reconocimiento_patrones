@@ -1,0 +1,4 @@
+|--- plas <= 143.50
+|   |--- class: tested_negative
+|--- plas >  143.50
+|   |--- class: tested_positive
